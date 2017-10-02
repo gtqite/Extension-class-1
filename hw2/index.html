@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<!-- This is a comment -->
+	<head>
+		<title>My Way Cool Web Page</title>
+		<base href="http://localhost"/>
+		<link rel="stylesheet" type="text/css" href="/css/theme.css">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico"  type="image/x-icon">
+
+		<style>
+		h1 { color: red; }
+		</style>
+
+		<meta charset="UTF-8">
+		<meta name="description" content="My in-class sample file">
+		<meta name="keywords" content="demo, sample">
+		<meta author="allen">
+
+		<meta name="viewport"
+			  content="width=device-width, initial-scale=1.0">
+
+		<style>
+			p { margin-top:.1in; margin-bottom:0pt; }
+		</style>
+	</head>
+	<body>
+		<h1 id="theTopOfThePage">Hello</h1>
+		<h2>World</h2>
+
+		<p> Here is a paragraph with some text in it. </p>
+		<hr>
+		<p> Here is <b>another</b> <em>paragraph</em> <i>with</i> some text in it.
+		<q>A short quotation</q>
+		<code>HereIsSomeCode()</code>.
+
+		<img src="http://holub.com/image/HolubLogo-190x190.jpg"
+		   alt="Holub.com" width="100px" height="100px" ></img>
+		<p>
+		<a href="http://holub.com" target="_blank">My web site.</a>
+		<a href="#theTopOfThePage">Go to top</a>
+
+		<dl>
+			<dt>Term 1</dt> <dd>Definition 1</dd> 
+			<dt>Term 2</dt> <dd>Definition 2</dd> 
+			<dt>Term 3</dt> <dd>Definition 3</dd> 
+		</dl>
+
+		<ul>
+			<li>Element 1
+				<ul>
+					<li>Second level item.</li>
+				</ul>
+			<li>Element 2
+			<li>Element 3
+		</ol>
+
+		<ol start="5">
+			<li>Element 1
+				<ol>
+					<li>Second level item.</li>
+				</ol>
+			<li>Element 2
+			<li>Element 3
+		</ol>
+		Text above quote
+		<blockquote>
+				Very long quote goes here.
+				Very long quote goes here.
+				Very long quote goes here.
+				Very long quote goes here.
+				Very long quote goes here.
+		</blockquote>
+		Text below quote
+
+		<style>
+		.inner { margin-left: .5in; padding-left: .1in; color: red; }
+		.mySpan { background-color: green; color: white; }
+		</style>
+		<div>
+			TextA
+			<div class="inner">
+				Text1
+			</div>
+			<div class="inner">
+				Text2
+			</div>
+			TextB
+		</div>
+		Text text <span style="color: purple;">inside span</span> Text text.
+		Text text <span class="mySpan">inside span</span> Text text.
+
+		Fred&nbsp;Flintstone
+		&lt;div&gt;
+
+		<table>
+			<thead> <td>Left Header</td> <td>Right Header </td> </thead>
+			<tfoot> <td>Left Footer</td> <td>Right Footer </td> </tfoot>
+			<tbody>
+				<tr> <td style="border:1px solid red;" colspan="2">Left</td> </tr>
+				<tr> <td>Left</td> <td>Right</td> </tr>
+			</tbody>
+		</table>
+		
+		<div style="border: 1px solid red; margin: .1in .1in .1in .1in;" >
+			<form action="http://localhost/echo.php" method="post">
+				<table>
+					<tr><td>Name: 	</td><td><input type="text" name="name-field"></td></tr>
+					<tr><td>Address:</td><td><input type="text" name="address-field"></td></tr>
+				</table>
+				<input type="submit">
+			</form>
+		</div>
+	</body>
+</html>
